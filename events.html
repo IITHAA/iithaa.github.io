@@ -1,0 +1,47 @@
+---
+layout: default
+title: Events
+---
+
+<div class="col-xl-12 col-lg-12 page-heading">
+ <!-- Cubes animation part-starts -->
+ <ul class="animation-area">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+ </ul>
+ <!-- Cubes animation part ended-->
+ <h1
+  class="text-center"
+  style="padding-top: 100px; font-family: 'Alegreya SC', serif"
+ >
+  Alumni Connect
+ </h1>
+</div>
+
+<div class="container" style="padding-top: 20px">
+ <!-- Cubes animation part ended-->
+ <div class="row justify-content-center">
+  <!-- Cities -->
+
+  {% assign count= 1 %} {% assign events = site.categories['event'] %} {% for
+  post in events %} {% if count == 4 %} {% break %} {% endif %} {% assign count
+  = count | plus: 1 %}
+  <div class="col-lg-4">
+   <div class="eventCard">
+    <img src="./assets//images/event/{{post.img}}" alt="Event Image" />
+    <h4>
+     <br />
+     {{ post.title }}
+    </h4>
+    <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+    <a href="{{post.link}}" target="_blank">Read More</a>
+   </div>
+  </div>
+
+  {% endfor %}
+ </div>
+</div>

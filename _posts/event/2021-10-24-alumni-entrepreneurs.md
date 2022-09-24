@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Alumni Entrepreneurs - E-Cell IITH
-img: 2022.JPEG
+img: 2022.jpeg
 category: event
-link: https://vibhanshu.in
+link: #
 ---
-
 E-cell with Alumni Association

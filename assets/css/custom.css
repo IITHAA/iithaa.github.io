@@ -1,3 +1,4 @@
+
 /*============= Button Gradient ============= */ 
 
 .btn-grad {background-image: linear-gradient(to right, #255779 0%, #26a0da 51%, #255779 100%); color:white}
@@ -219,5 +220,3 @@ padding: 0%;
   background-size: cover;
   background-position: 50% 50%;
 }
-
-

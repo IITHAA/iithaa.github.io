@@ -27,6 +27,32 @@ title: Events
  <div class="row justify-content-center">
   <!-- Cities -->
 
+  <div class="col-lg-12 text-center">
+   <h3><br />Upcoming Events</h3>
+  </div>
+
+  <div class="col-lg-4">
+   <div class="eventCard">
+    <!-- <img src="./assets//images/event/{{post.img}}" alt="Event Image" /> -->
+    <h4>
+     <br />
+     IITH Alumni Meet & Greet at Bangalore
+    </h4>
+    <p>
+     Join us at IIM BANGALORE from 11:00 AM to 2:00 PM on 9th Oct 2022. Please
+     confirm your participation here by 04th October 22 (Tuesday).
+    </p>
+    <p>9th Oct 2022</p>
+    <a href="https://forms.gle/zkrx2VSchcqLuYXa6" target="_blank"
+     >Register here.</a
+    >
+   </div>
+  </div>
+
+  <div class="col-lg-12 text-center">
+   <h3><br /><br />Past Events</h3>
+  </div>
+
   {% assign count= 1 %} {% assign events = site.categories['event'] %} {% for
   post in events %} {% if count == 10 %} {% break %} {% endif %} {% assign count
   = count | plus: 1 %}

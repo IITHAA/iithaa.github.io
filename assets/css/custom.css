@@ -1,3 +1,15 @@
+
+/* Startup Page */
+.startupLogo{
+margin: 10px;
+}
+
+.startupLogo img{
+  width: 90%;
+  margin: 10%;
+}
+
+/* =====================  */
 .coverSection1010 {
   width: 60%;
   padding: 10% 5%;
@@ -249,4 +261,3 @@
  background-size: cover;
  background-position: 50% 50%;
 }
-

@@ -20,6 +20,15 @@ margin: 10px;
    width: 90%;
    padding: 20% 5%;
   }
+
+  .startupLogo{
+    margin: 0px;
+    }
+    
+  .startupLogo img{
+    width: 80vw;
+    margin: 5vw;
+  }
  }
 
  

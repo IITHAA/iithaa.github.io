@@ -69,6 +69,12 @@ margin: 10px;
  font-family: "Alegreya SC", serif;
 }
 
+@media screen and (max-width: 700px) {
+ .page-heading {
+   height: 280px !important;
+ }
+}
+  
 /*===========Aninmation */
 .container_cover {
  width: 100%;

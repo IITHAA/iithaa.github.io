@@ -105,6 +105,7 @@
   margin-bottom: 40px;
   font-family: 'Futura Light';
 }
+
 @media screen and (max-width: 900px) {
   .main-img .main-img-inner .main-catchcopy {
     font-size: 24px;
